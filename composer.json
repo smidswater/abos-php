@@ -1,0 +1,15 @@
+{
+    "name": "smidswater/abos",
+    "description": "A Better Object Syntax",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Smidswater",
+            "email": "tech@smidswater.nl"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "version": "0.0.1"
+}
