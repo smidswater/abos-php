@@ -39,9 +39,10 @@ Resolves to
     "jsonItem1": "Hello",
     "jsonItem2": {
         "jsonItem3": "Hello W",
-        "jsonItem4": "Hello Wor",
+        "jsonItem4": "Hello Wor"
     },
     "jsonItem3": {
+        "jsonItem5": "Hello World",
         "jsonItem4": "Hello World"
     }
 }

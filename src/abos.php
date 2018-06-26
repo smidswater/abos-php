@@ -81,16 +81,3 @@ class ABOS {
         return self::recursive($_abos, $parents);
     }
 }
-
-
-var_dump(ABOS::decode([
-    'jsonItem1' => 'Hello',
-    'jsonItem2' => [
-        'jsonItem3' => '${@top.jsonItem1} W',
-        'jsonItem4' => '${@this.jsonItem3}or'
-    ],
-    'jsonItem3' => [
-        'jsonItem5' => '${@this.jsonItem4}',
-        'jsonItem4' => '${@parent.jsonItem2.jsonItem4}ld'
-    ]
-]));
