@@ -11,10 +11,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "Smidswater": "src/"
+            "Smidswater\\": "src/"
         }
     },
     "minimum-stability": "stable",
     "require": {},
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
