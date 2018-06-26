@@ -9,6 +9,11 @@
             "email": "tech@smidswater.nl"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Smidswater": "src/"
+        }
+    },
     "minimum-stability": "stable",
     "require": {},
     "version": "0.0.1"
